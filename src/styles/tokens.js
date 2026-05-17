@@ -1,0 +1,16 @@
+export const T = {
+  gold: "#C9A84C",
+  goldLight: "#E8CC80",
+  goldDark: "#9A7A30",
+  bg: "#08080C",
+  bgCard: "#0F0F17",
+  bgSurface: "#121118",
+  bgGlass: "rgba(20,20,32,0.7)",
+  border: "rgba(201,168,76,0.15)",
+  borderHover: "rgba(201,168,76,0.45)",
+  text: "#F5F0E8",
+  textMuted: "rgba(245,240,232,0.5)",
+  textFaint: "rgba(245,240,232,0.25)",
+  red: "#E24B4A",
+  green: "#2ECC71",
+}
