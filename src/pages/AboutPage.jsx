@@ -107,7 +107,10 @@ export function AboutPage() {
         </div>
       </div>
 
-      <div style={{ padding: "6rem 0.8rem", maxWidth: 1100, margin: "0 auto" }}>
+      <div
+        className="about-content-container"
+        style={{ padding: "6rem 2rem", maxWidth: 1100, margin: "0 auto" }}
+      >
         <div
           style={{
             display: "grid",

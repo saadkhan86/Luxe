@@ -38,7 +38,9 @@ const FormField = ({
 )
 
 const ComboInput = ({ options, value, onChange, placeholder }) => {
-  const [isCustom, setIsCustom] = useState(!options.includes(value) && value !== "")
+  const [isCustom, setIsCustom] = useState(
+    !options.includes(value) && value !== "",
+  )
 
   if (isCustom) {
     return (
@@ -135,11 +137,7 @@ export function AdminPage({
     "Exclusive",
   ]
   const uniqueBadges = Array.from(
-    new Set([
-      "",
-      ...BADGES,
-      ...products.map((p) => p.badge).filter(Boolean),
-    ]),
+    new Set(["", ...BADGES, ...products.map((p) => p.badge).filter(Boolean)]),
   )
 
   const filtered =

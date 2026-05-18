@@ -304,6 +304,10 @@ option {
   .about-heading {
     font-size: clamp(2rem, 6vw, 4rem) !important;
   }
+  .about-content-container {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
   .about-paragraph {
     font-size: 13px !important;
   }
