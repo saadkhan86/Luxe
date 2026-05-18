@@ -25,7 +25,7 @@ export function AboutPage() {
           Est. 2023
         </p>
         <h1
-          className="display"
+          className="display about-heading"
           style={{
             fontSize: "clamp(2.5rem,6vw,5rem)",
             fontWeight: 300,
@@ -47,6 +47,7 @@ export function AboutPage() {
           <Divider />
         </div>
         <p
+          className="about-paragraph"
           style={{
             color: T.textMuted,
             fontSize: 15,
@@ -81,7 +82,7 @@ export function AboutPage() {
           ].map(([n, l]) => (
             <div key={l}>
               <p
-                className="display"
+                className="display extra-infos"
                 style={{
                   fontSize: 42,
                   color: T.goldLight,
@@ -106,7 +107,7 @@ export function AboutPage() {
         </div>
       </div>
 
-      <div style={{ padding: "6rem 2rem", maxWidth: 1100, margin: "0 auto" }}>
+      <div style={{ padding: "6rem 0.8rem", maxWidth: 1100, margin: "0 auto" }}>
         <div
           style={{
             display: "grid",

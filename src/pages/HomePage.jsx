@@ -64,7 +64,7 @@ export function HomePage({ products }) {
             paddingTop: 70,
           }}
         >
-          <div style={{ maxWidth: 620 }}>
+          <div style={{ maxWidth: 620 }} className="hero-page-container">
             <p
               className="fadeUp hero-subtitle"
               style={{
@@ -104,7 +104,7 @@ export function HomePage({ products }) {
               <Divider style={{ marginBottom: 24 }} />
             </div>
             <p
-              className="fadeUp hero-subtitle"
+              className="fadeUp hero-description"
               style={{
                 color: T.textMuted,
                 fontSize: 15,
@@ -130,10 +130,14 @@ export function HomePage({ products }) {
                 opacity: 0,
               }}
             >
-              <Button onClick={() => go("/products")}>
+              <Button className="hero-btn" onClick={() => go("/products")}>
                 Explore Collection
               </Button>
-              <Button variant="outline" onClick={() => go("/about")}>
+              <Button
+                className="hero-btn"
+                variant="outline"
+                onClick={() => go("/about")}
+              >
                 Our Story
               </Button>
             </div>
